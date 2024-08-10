@@ -1,8 +1,11 @@
 <template>
 	<div>hello</div>
+	<Person />
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Person from './components/Person.vue'
+</script>
 
 <style scoped>
 div {
